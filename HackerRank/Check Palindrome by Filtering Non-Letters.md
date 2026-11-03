@@ -1,5 +1,7 @@
 # Solution
 
+C#
+
 ```csharp
     // Brute Force  Time Complex O(n) Capacity Complex O(n)
     public static bool isAlphabeticPalindrome(string code)
