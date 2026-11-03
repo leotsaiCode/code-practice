@@ -1,5 +1,7 @@
 # Solutions
 
+C#
+
 ```csharp
 public static int countResponseTimeRegressions(List<int> responseTimes)
 {
@@ -25,6 +27,8 @@ public static int countResponseTimeRegressions(List<int> responseTimes)
 }
 
 ```
+
+go
 
 ```go
 func countResponseTimeRegressions(responseTimes []int32) int32 {

@@ -1,11 +1,13 @@
 # Solutions
 
+C#
+
 ```csharp
 public static List<List<int>> mergeHighDefinitionIntervals(List<List<int>> intervals)
 {
-var result = new List<List<int>>();
-if(intervals.Count ==0)
-return result;
+        var result = new List<List<int>>();
+        if(intervals.Count ==0)
+        return result;
 
         intervals.Sort((a, b) => a[0].CompareTo(b[0]));
 
