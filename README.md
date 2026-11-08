@@ -1,6 +1,7 @@
 # code-practice
 
-Solutions to coding practice problems, written in C# and Go.
+my leetcode(hackerrank) practice everyday
+Solutions to coding practice problems, written in C# and Go(a little).
 
 ## Structure
 
