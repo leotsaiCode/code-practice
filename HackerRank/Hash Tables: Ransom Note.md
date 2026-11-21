@@ -1,5 +1,5 @@
-> Dictionary 存 note 每個字的出現次數，跑 magazine 時對到就 -1，歸 0 就移除
-> 每次對到都要檢查 Count == 0，提早 break
+> Dictionary stores the count of each word in note; while iterating magazine, decrement on a match and remove at 0
+> On every match, check Count == 0 and break early
 > Time O(n + m) Space O(n)
 
 ```csharp
@@ -40,8 +40,8 @@ public static void checkMagazine(List<string> magazine, List<string> note)
 }
 ```
 
-> 歸 0 就從 Dictionary 刪除，Count == 0 即代表 note 的字都湊齊
-> 不用 result 變數，Count 檢查移到迴圈外，邏輯更簡單
+> Remove a word from the Dictionary when its count hits 0; Count == 0 means every word in note has been matched
+> No result variable; the Count check moves outside the loop, which keeps the logic simpler
 > Time O(n + m) Space O(n)
 
 ```csharp
